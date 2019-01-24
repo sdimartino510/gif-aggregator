@@ -77,7 +77,7 @@ $(document).ready(function() {
 
     var apiKey = "UJKxGxreBmxXae04g503IlVBamFlm4Db";
     var queryURL =
-      "https://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=" + apiKey;
+      "https://api.giphy.com/v1/gifs/search?limit=10&q=" + type + "&api_key=" + apiKey;
 
     //The AJAX call
 
