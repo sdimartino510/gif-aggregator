@@ -3,14 +3,13 @@ $(document).ready(function() {
   //Creates an array of strings which will be topics for GIF searches, in this case, baseball teams.
 
   var topics = [
-    "Oakland A's",
-    "Houston Astros",
-    "Los Angeles Angels",
-    "Seattle Mariners",
-    "Texas Rangers"
+    "LOL",
+    "OMG",
+    "WTF",
+    "derp",
   ];
 
-  //Creates buttons for each topic
+  //Function that creates buttons for each topic
 
   function createButtons() {
 
@@ -93,11 +92,11 @@ $(document).ready(function() {
       for (var i = 0; i < response.data.length; i++) {
         var searchDiv = $("<div class='search-item'>");
 
-        //Assigns the rating to each GIF
+        //Gets the rating for each GIF and prepares it to be displayed
 
         var rating = response.data[i].rating;
 
-        var p = $("<h3>").text("Rating: " + rating);
+        var gifRating = $("<h4>").text("Rating: " + rating);
 
         //This code is part of the play/pause functionality
 
@@ -119,7 +118,7 @@ $(document).ready(function() {
 
         //Appends the GIFs and their ratings to the .gif-box div
 
-        searchDiv.append(img, p);
+        searchDiv.append(img, gifRating);
 
         $(".gif-box").append(searchDiv);
       }

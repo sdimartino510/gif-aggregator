@@ -1,3 +1,15 @@
+body {
+  background: url(../images/darkness.png);
+  color: #00bfff;
+  font-size: 15px;
+  font-family: "Special Elite", cursive;
+}
+.header {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 20px;
+}
 .gif-button {
   margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
 }
