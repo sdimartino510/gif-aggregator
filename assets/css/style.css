@@ -1,15 +1,42 @@
 body {
   background: url(../images/darkness.png);
   color: #00bfff;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Special Elite", cursive;
 }
 .header {
   font-family: "Cabin Sketch", cursive;
-  font-size: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.button-box {
+  text-align: center;
 }
 .gif-button {
+  font-family: "Special Elite", cursive;
+  font-size: 15px;
   margin-right: 5px;
   padding: 5px;
   border-radius: 5px;
+}
+#gif-form {
+  text-align: center;
+}
+input[type="text"] {
+  font-size: 15px;
+}
+input[type="submit"] {
+  font-family: "Special Elite", cursive;
+  font-size: 15px;
+}
+.gif-box {
+  text-align: center;
+  border: ridge 8px #00bfff;
+  margin: 0 30px 30px 30px;
+  visibility: hidden;
+}
+.search-item {
+  display: inline-block;
+  padding: 25px;
+  text-align: center;
 }

@@ -67,6 +67,10 @@ $(document).ready(function() {
 
   $(document).on("click", ".gif-button", function() {
 
+    //Changes .gif-box visibility to 'visible'. Hidden initially so border doesn't show until there are GIFs in the box.
+
+    $(".gif-box").css("visibility", "visible");
+
     //Clears the .gif-box div of buttons before recreating them
 
     $(".gif-box").empty();
