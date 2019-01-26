@@ -12,7 +12,7 @@ body {
 .button-box {
   text-align: center;
 }
-.gif-button {
+.gif-button, #add-gif {
   font-family: "Special Elite", cursive;
   font-size: 15px;
   margin-right: 5px;
@@ -25,10 +25,9 @@ body {
 input[type="text"] {
   font-size: 15px;
 }
-input[type="submit"] {
-  font-family: "Special Elite", cursive;
-  font-size: 15px;
-}
+/* input[type="submit"] {
+  background: #ffffff;
+} */
 .gif-box {
   text-align: center;
   border: ridge 8px #00bfff;
