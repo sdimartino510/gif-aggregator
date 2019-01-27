@@ -35,6 +35,7 @@ input[type="text"] {
   text-align: center;
   border: ridge 8px #00bfff;
   margin: 0 30px 30px 30px;
+  min-width: 500px;
   visibility: hidden;
 }
 .search-item {
