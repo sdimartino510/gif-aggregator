@@ -12,4 +12,4 @@ https://webdevserg.io/gif-aggregator/
 As usual, thank you to my classmates, TA's, and instructor for helping me out when I needed it. Special thanks to my tutor, Lindsey Bowen, for her uncanny ability to help me grok this stuff.
 
 # credit
-Site designed and coded by Sergio Di Martino as an assignment for UC Berkeley Extension Coding Bootcamp, Full Stack Development program. Questions or comments about the Gregarious GIF Aggregator should be directed to [Sergio Di Martino](mailto:sdimartino@gmail.com).
+Site designed and coded by Sergio Di Martino as an assignment for UC Berkeley Extension Coding Bootcamp, Full Stack Development program. Questions or comments about the Gregarious GIF Aggregator should be directed to [Sergio Di Martino](mailto:sergio@webdevserg.io).
