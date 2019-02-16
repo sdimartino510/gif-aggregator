@@ -1,6 +1,8 @@
 # Gregarious GIF Aggregator
 unit 6 homework, UC Berkeley Extension Coding Bootcamp
 
+https://webdevserg.io/gif-aggregator/
+
 # instructions
 1. Press any of the existing GIF buttons to fetch 10 animated GIFs related to the topic on the button.
 2. The GIFs will be static when they load. You may click on whichever GIF you'd like to see it animated. You may click it again to stop the animation.
